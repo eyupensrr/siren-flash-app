@@ -1,5 +1,34 @@
 # 🚨 Siren Flash App – by eyupensrr
 
+**Siren App** is a desktop siren simulator built with Python.  
+It features realistic police/ambulance siren sounds, flashing light effects, mode switching, and customizable themes and languages — all packed into a fullscreen Tkinter interface.
+
+---
+
+## ✨ Features
+
+- 🌐 **Multilingual UI:** English 🇬🇧 and Turkish 🇹🇷  
+- 🎨 **Themes:** Light and Dark  
+- 🔊 **Realistic sound system:** ARMAS, CSR, ZER modes with unique sirens  
+- 💡 **Flash effect:** Alternating red/blue light simulation on screen  
+- ⚙️ **Configurable settings:** Saves language, theme, and media path to `config.txt`  
+- 📁 **Automatic media detection:** Prompts user to select the folder if missing  
+- 🧱 **Fullscreen UI:** Clean, minimal Tkinter design  
+- 💾 **Portable:** Runs with Python + pip only (no external frameworks)
+
+---
+
+## ⚙️ System Requirements
+
+| Component | Requirement |
+|------------|--------------|
+| **Python** | 3.9 or newer |
+| **Operating System** | Windows 10+ (Linux/macOS compatible with small edits) |
+| **Libraries** | `tkinter`, `pygame` |
+| **Audio Format** | `.ogg` (stored inside `/media` folder) |
+
+---
+
 ## 🚀 Installation & Setup
 
 ### 1️⃣ Install Python 3.9 or higher
