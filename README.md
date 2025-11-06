@@ -7,7 +7,7 @@ It features realistic police/ambulance siren sounds, flashing light effects, mod
 
 ## ✨ Features
 
-- 🌐 **Multilingual UI:** English 🇬🇧 and Turkish 🇹🇷  
+- 🌐 **Multilingual UI:** English 🇺🇸 and Turkish 🇹🇷  
 - 🎨 **Themes:** Light and Dark  
 - 🔊 **Realistic sound system:** ARMAS, CSR, ZER modes with unique sirens  
 - 💡 **Flash effect:** Alternating red/blue light simulation on screen  
