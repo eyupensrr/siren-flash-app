@@ -135,7 +135,6 @@ Your standalone file will appear in the `dist/` folder.
 | Media not found | Missing or wrong path | Select folder when prompted |
 | No sound | Pygame or driver issue | Try reinstalling `pygame` or check sound drivers |
 | Tkinter not found | Minimal Python install | Reinstall Python (full installer from python.org) |
-| Console flash or instant exit | Non-Windows system | Comment out the `ctypes.windll` console-hide line |
 
 ---
 
