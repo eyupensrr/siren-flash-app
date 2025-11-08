@@ -5,16 +5,38 @@ It features realistic police/ambulance siren sounds, flashing light effects, mod
 
 ---
 
-## ✨ Features
+## ✨ Features (v2.0)
 
-- 🌐 **Multilingual UI:** English 🇺🇸 and Turkish 🇹🇷  
-- 🎨 **Themes:** Light and Dark  
-- 🔊 **Realistic sound system:** ARMAS, CSR, ZER modes with unique sirens  
-- 💡 **Flash effect:** Alternating red/blue light simulation on screen  
-- ⚙️ **Configurable settings:** Saves language, theme, and media path to `config.txt`  
-- 📁 **Automatic media detection:** Prompts user to select the folder if missing  
-- 🧱 **Fullscreen UI:** Clean, minimal Tkinter design  
-- 💾 **Portable:** Runs with Python + pip only (no external frameworks)
+- 🌐 **Multilingual interface:** English 🇺🇸 & Turkish 🇹🇷  
+- 🎨 **Dynamic theme switching:** Instantly toggle between Light & Dark modes  
+- 🔊 **Realistic sound system:** Three independent siren modes — **ARMAS**, **CSR**, and **ZER**  
+- 📣 **Horn mode:** Press-and-hold horn playback that resumes previous siren when released  
+- 🔁 **Extended siren:** One-shot “EL” siren playback for quick bursts  
+- 💡 **Flashing light simulation:** Smooth alternating red/blue screen light animation  
+- 🧩 **Automatic media folder detection:** Automatically finds or asks for the correct sound folder  
+- ⚙️ **Persistent configuration:** Remembers language, theme, and media path in `config.txt`  
+- 🧱 **Responsive fullscreen UI:** Adapts to any screen resolution  
+- 💾 **Self-contained:** Works with only Python and pip installed — no external frameworks needed  
+- 💬 **Live warnings:** Shows missing sound files or folder errors directly in the interface  
+- 🔄 **Seamless restarts:** Theme switching reloads UI without restarting the app manually  
+- 🧰 **Cross-platform ready:** Works on Windows and compatible with macOS/Linux *(remove ctypes console-hide line if needed)*
+
+---
+
+### 🧩 Technical Updates in Version 2.0
+
+- Cleaner, safer **configuration management** (`load_config` and `save_config` rewritten)  
+- More reliable **media folder handling** — fallback to local `/media` directory if not found  
+- Improved **first-run setup screen** for theme/language selection  
+- Smoother **flash effect cycle** and non-blocking animation  
+- Simplified **main UI layout** with centered grid and better scaling  
+- Better **error handling** for missing or invalid sound files  
+- Still **hides console on Windows only** (safe with try/except)  
+- Ready for **PyInstaller packaging** without extra modification
+
+---
+
+✅ *This feature list applies to version 2.0 of Siren Flash App.*  
 
 ---
 
