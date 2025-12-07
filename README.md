@@ -80,6 +80,13 @@ Version **3.0** introduces:
 | **I** | Extended Siren |
 | **T** | Toggle Theme |
 | **F11** | Fullscreen Toggle |
+| **ESC** | Exit Fullscreen |
+
+* * *
+
+### IMPORTANT NOTE
+
+If you download the .exe file, you don't need to download or install anything more. Just run the file.
 
 * * *
 
