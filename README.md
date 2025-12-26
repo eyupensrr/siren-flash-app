@@ -1,3 +1,4 @@
+curl -s https://api.github.com/repos/eyupensrr/siren-flash-app/releases | egrep 'download_count'  | cut '-d:' -f 2 | sed 's/,/+/' | xargs echo | xargs -I N echo N 0  | bc
 
 * * *
 
