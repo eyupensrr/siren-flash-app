@@ -1,5 +1,12 @@
 * * *
 
+<p align="center">
+  <img src="https://img.shields.io/github/downloads/eyupensrr/siren-flash-app/total" />
+</p>
+
+
+* * *
+
 🚨 Siren Flash App v3.0
 =======================
 
