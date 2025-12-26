@@ -90,7 +90,7 @@ Version **3.0** introduces:
 
 * * *
 
-### IMPORTANT NOTE
+### 📌 IMPORTANT NOTE
 
 If you download the .exe file, you don't need to download or install anything more. Just run the file.
 
