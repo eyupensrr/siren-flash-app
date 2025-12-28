@@ -7,7 +7,7 @@
 
 * * *
 
-🚨 Siren Flash App v3.0
+🚨 Siren Flash App v3
 =======================
 
 **Advanced Police/EMS Siren & Flash Controller**  
@@ -19,7 +19,7 @@ Developed by **eyupensrr**
 -----------
 
 Siren Flash App is a powerful and customizable siren controller designed for roleplay, simulation setups, and emergency signaling demonstrations.  
-Version **3.0** introduces:
+Version **3** introduces:
 
 *   Fullscreen icon support (Light & Dark)
 *   Improved configuration system
@@ -139,7 +139,7 @@ light_fsc.png
 
 ### 🔧 Requirements
 
-*   Python **3.10+**
+*   Python **3.10/3.11/3.12** (Version 3.13 and 3.14 don't support pygame.)
 *   Modules:
     *   `pygame`
     *   `tkinter` (comes with Python)
