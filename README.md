@@ -95,6 +95,8 @@ Version **3** introduces:
 
 If you download the .exe file, you don't need to download or install anything more. Just run the file.
 
+Latest file: [3.1 exe version](https://github.com/eyupensrr/siren-flash-app/releases/tag/releases)
+
 * * *
 
 📁 Media Folder Requirements
@@ -139,7 +141,7 @@ light_fsc.png
 
 ### 🔧 Requirements
 
-*   Python **3.10/3.11/3.12** (Version 3.13 and 3.14 don't support pygame.)
+*   Python **3.10/3.11/3.12** (version 3.13 and 3.14 don't support pygame.)
 *   Modules:
     *   `pygame`
     *   `tkinter` (comes with Python)
