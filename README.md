@@ -21,6 +21,7 @@ Developed by **eyupensrr**
 Siren Flash App is a powerful and customizable siren controller designed for roleplay, simulation setups, and emergency signaling demonstrations.  
 Version **3** introduces:
 
+*   Multiple OS support (Windows, Linux, MacOS)
 *   Fullscreen icon support (Light & Dark)
 *   Improved configuration system
 *   Keyboard shortcuts
@@ -93,7 +94,7 @@ Version **3** introduces:
 📌 IMPORTANT NOTE
 ----------------------------
 
-If you download the .exe file, you don't need to download or install anything more. Just run the file.
+If you download the .exe file, you don't need to download or install anything more. Just run the file. (Windows only)
 
 Latest file: [3.1 exe version](https://github.com/eyupensrr/siren-flash-app/releases/tag/releases)
 
@@ -136,12 +137,12 @@ light_fsc.png
 
 * * *
 
-🚀 Installation
+🚀 Installation (Windows)
 ---------------
 
 ### 🔧 Requirements
 
-*   Python **3.10/3.11/3.12** (version 3.13 and 3.14 don't support pygame.)
+*   Python **3.10/3.11/3.12** (version 3.13 and 3.14 don't support pygame. Latest version is 3.12.10)
 *   Modules:
     *   `pygame`
     *   `tkinter` (comes with Python)
@@ -159,6 +160,30 @@ pip install pygame pillow
 python siren_app_main_v3.0.py
 ```
 or simply double click the file!
+
+* * *
+
+🚀 Installation (Linux)
+---------------
+
+### 🔧 Requirements
+
+*    Same Python version as on Windows (not tested)
+*    Wine, any version
+
+### 💾 Install dependencies
+
+```
+sudo apt update
+sudo apt install --install-recommends winehq-stable
+```
+
+### ▶️ Run the app
+
+(Open a terminal at the files directory)
+```
+wine siren-app-main-v3.1.exe
+```
 
 * * *
 
